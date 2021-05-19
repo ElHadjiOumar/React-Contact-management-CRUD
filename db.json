@@ -8,13 +8,6 @@
       "id": 8
     },
     {
-      "nom": "Nanasta",
-      "prenom": "Marie therese ",
-      "email": "nanasta@gmail.com",
-      "numero": "778554466",
-      "id": 10
-    },
-    {
       "nom": "Diop",
       "prenom": "Adrien",
       "email": "adrien@gmail.com",
@@ -27,6 +20,13 @@
       "email": "fernandez@gmail.com",
       "numero": "778546321",
       "id": 12
+    },
+    {
+      "nom": "Fall",
+      "prenom": "Moustapha Soumare",
+      "email": "moustapha@gmail.com",
+      "numero": "778854126",
+      "id": 14
     }
   ]
 }

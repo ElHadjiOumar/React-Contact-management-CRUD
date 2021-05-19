@@ -1,25 +1,29 @@
 import React from "react";
-import Image from "../images/luffy.png";
+import Image from "../images/oumar.png";
 
-const About = () => {
+function About() {
   return (
-    <div className="container emp-profile">
-      <form method="">
-        <div className="row">
-          <div className="col-md-4">
-            <img src={Image} alt="thapa" width="200" height="200" />
-          </div>
-          <div className="col-md-6">
-            <div className="profile-head">
-              <h5>El Hadji Oumar</h5>
-              <h6>Developpeur Web</h6>
-              <p className="profile-rating mt-3 mb-5"></p>
+    <div>
+      <h2>A Propos de Moi</h2>
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="img-box">
+              <img src={Image} alt="" />
             </div>
+            <p class="testimonial">
+              Je suis El Hadji Oumar MBENGUE et je suis passionné de
+              developpement Informatique . Etudiant en MPSI 1 à l'ESMT
+            </p>
+            <p class="overview">
+              <b>El Hadji Oumar MBENGUE</b>Developpeur Full Stack{" "}
+              <a href="https://github.com/ElHadjiOumar">Code source</a>
+            </p>
           </div>
         </div>
-      </form>
+      </div>
     </div>
   );
-};
+}
 
 export default About;

@@ -19,7 +19,7 @@ const Serveur = () => {
   };
 
   const deleteUser = async (id) => {
-    await axios.delete(`http://localhost:3003/contact/${id}`);
+    await axios.delete(`http://localhost:3003/users/${id}`);
     loadUsers();
   };
 
