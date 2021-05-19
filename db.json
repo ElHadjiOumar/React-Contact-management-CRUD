@@ -1,0 +1,32 @@
+{
+  "users": [
+    {
+      "nom": "mbengue",
+      "prenom": "oumarr",
+      "email": "elhadjimbengueo@gmail.com",
+      "numero": "779158561",
+      "id": 8
+    },
+    {
+      "nom": "Nanasta",
+      "prenom": "Marie therese ",
+      "email": "nanasta@gmail.com",
+      "numero": "778554466",
+      "id": 10
+    },
+    {
+      "nom": "Diop",
+      "prenom": "Adrien",
+      "email": "adrien@gmail.com",
+      "numero": "774412256",
+      "id": 11
+    },
+    {
+      "nom": "Fernandez",
+      "prenom": "Fatoumata Bintou",
+      "email": "fernandez@gmail.com",
+      "numero": "778546321",
+      "id": 12
+    }
+  ]
+}
