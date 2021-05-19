@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-secondary">
       <div className="container">
-        <Link className="navbar-brand" href="/">
+        <Link className="navbar-brand" exact to="/home">
           Gestion Contact
         </Link>
         <button
